@@ -1,11 +1,13 @@
 import React from "react";
 import { useDispatch } from "react-redux";
 
+import { changeFruit } from "../actions/action";
+
 function FruitItem(props) {
   const dispatch = useDispatch();
 
   const onChooseFruit = () => {
-    dispatch({ type: "changeFruit" });
+    dispatch(changeFruit(props.name));
   };
 
   return (
