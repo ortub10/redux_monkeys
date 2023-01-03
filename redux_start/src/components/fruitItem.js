@@ -1,7 +1,12 @@
 import React from "react";
+import { useDispatch } from "react-redux";
 
 function FruitItem(props) {
-  const onChooseFruit = () => {};
+  const dispatch = useDispatch();
+
+  const onChooseFruit = () => {
+    dispatch({ type: "changeFruit" });
+  };
 
   return (
     <div className="border p-2 bg-light" style={{ cursor: "pointer" }}>
