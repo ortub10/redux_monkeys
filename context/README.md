@@ -8,6 +8,12 @@ SetFruitChoose function passed by props 2 times
 
 ---
 
+## part 2:
+
+SetFruitChoose function - using with contaxt
+
+---
+
 ## Available Scripts
 
 In the project directory, you can run:
