@@ -1,24 +1,19 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 const initState = {
-  todos_ar: [
-    {
-      name: "go ot work",
-      time: "09:00",
-      id: 1,
-    },
-    {
-      name: "go ot lunch",
-      time: "12:00",
-      id: 2,
-    },
-  ],
+  todos_ar: [],
 };
 
 const todoSlice = createSlice({
   name: "todos",
   initialState: initState,
-  reducers: {},
+  reducers: {
+    addNewItem: (state, actions) => {
+      state.todos_ar.push(actions.payload.todoItem);
+    },
+  },
 });
+
+export const { addNewItem } = todoSlice.actions;
 
 export default todoSlice.reducer;

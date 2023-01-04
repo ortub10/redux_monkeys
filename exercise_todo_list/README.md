@@ -18,6 +18,14 @@ Define a SLICE for a radioizer that includes a JSON array of tasks. Just for exa
 
 ---
 
+## part 3:
+
+Added a new item to the list
+
+![part3](https://user-images.githubusercontent.com/102150516/210631982-80b91438-1bbd-4f78-a983-de2c2a4c9b26.png)
+
+---
+
 ## Available Scripts
 
 In the project directory, you can run:
