@@ -50,6 +50,12 @@ Sorting list
 
 ---
 
+## part 7:
+
+Creating todoItem componenet
+
+---
+
 ## Available Scripts
 
 In the project directory, you can run:
