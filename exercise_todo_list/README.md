@@ -42,6 +42,14 @@ Saving in local storge
 
 ---
 
+## part 6:
+
+Sorting list
+
+![part6](https://user-images.githubusercontent.com/102150516/210644785-33e27ff7-326e-4d27-9c3f-cc4eecacd93d.png)
+
+---
+
 ## Available Scripts
 
 In the project directory, you can run:
