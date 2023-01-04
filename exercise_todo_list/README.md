@@ -26,6 +26,14 @@ Added a new item to the list
 
 ---
 
+## part 4:
+
+General deletion and individual item deletion
+
+![part4](https://user-images.githubusercontent.com/102150516/210635196-ff0ca729-1640-47da-8e52-e807415fe09c.png)
+
+---
+
 ## Available Scripts
 
 In the project directory, you can run:

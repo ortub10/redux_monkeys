@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import { useDispatch } from "react-redux";
-import { addNewItem } from "../features/todoSlice";
+import { addNewItem, resetAllItems } from "../features/todoSlice";
 
 function TodoInput() {
   const dispatch = useDispatch();
@@ -27,7 +27,15 @@ function TodoInput() {
         <button onClick={onAddClick} className="btn btn-success me-2">
           Add new
         </button>
-        <button className="btn btn-danger">reset</button>
+        <button
+          onClick={() => {
+            window.confirm("Are you sure you want to reset all list") &&
+              dispatch(resetAllItems());
+          }}
+          className="btn btn-danger"
+        >
+          reset
+        </button>
       </div>
     </div>
   );
