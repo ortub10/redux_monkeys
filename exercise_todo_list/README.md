@@ -36,7 +36,7 @@ General deletion and individual item deletion
 
 ## part 5:
 
-General deletion and individual item deletion
+Saving in local storge
 
 ![part5](https://user-images.githubusercontent.com/102150516/210641738-b8f6b8d4-f29f-40fb-9def-6f01340951df.png)
 
