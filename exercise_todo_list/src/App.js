@@ -1,12 +1,19 @@
-
-import './App.css';
-import AppRoutes from './appRoutes';
+import { configureStore } from "@reduxjs/toolkit";
+import { Provider } from "react-redux";
+import "./App.css";
+import AppRoutes from "./appRoutes";
+import todoSlice from "./features/todoSlice";
+const myStore = configureStore({
+  reducer: {
+    todoSlice,
+  },
+});
 
 function App() {
   return (
-    <div className="App">
+    <Provider store={myStore}>
       <AppRoutes />
-    </div>
+    </Provider>
   );
 }
 

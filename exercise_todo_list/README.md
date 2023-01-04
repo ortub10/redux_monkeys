@@ -10,6 +10,14 @@ UI of TODO LIST
 
 ---
 
+## part 2:
+
+Define a SLICE for a radioizer that includes a JSON array of tasks. Just for example, the tasks are fixed in the array
+
+![part2](https://user-images.githubusercontent.com/102150516/210628871-e9f4fe21-4588-458f-a464-365d9bd09ef1.png)
+
+---
+
 ## Available Scripts
 
 In the project directory, you can run:
